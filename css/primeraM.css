@@ -1,0 +1,115 @@
+.primera {
+  width: 90%;
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.primera-titulo {
+  color: var(--letra-body);
+  font-size: 35px;
+  margin: 0;
+  line-height: 1.3em;
+}
+.primera-subtitulo {
+  font-size: 15px;
+  color: var(--letra-body);
+  line-height: 1.3em;
+}
+
+.primera-tabla {
+  width: 90%;
+  max-width: 980px;
+  text-align: center;
+  margin: 70px auto;
+
+  border-collapse: collapse;
+}
+
+.tabla-arriba th {
+  background: var(--letra-body);
+  color: white;
+}
+.tabla-info,
+.tabla-info td {
+  border: 1px solid var(--letra-body);
+  color: var(--fondo);
+  border-radius: 5px;
+}
+
+.fotos-jugadores {
+  width: 95%;
+  max-width: 980px;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.jugador-titulo {
+  color: var(--letra-body);
+}
+.jugador {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.jugador-foto {
+  margin: 0 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 120px;
+  box-shadow: 0 1px 10px 2px var(--fondo);
+}
+
+.goleadores {
+  width: 90%;
+  max-width: 980px;
+  text-align: center;
+  margin: 70px auto;
+}  
+
+.jugador-titulo-g{
+  color: var(--letra-body);
+}
+
+@media (min-width: 950px) {
+  .primera {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .primera-tabla {
+    width: 100%;
+  }
+
+  .tabla-info,
+  .tabla-info td {
+    padding: 5px;
+  }
+
+  .fotos-jugadores {
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--letra-body);
+  }
+
+  .jugador-foto {
+    box-shadow: 0 1px 10px 2px var(--letra-body);
+  }
+
+  .jugador-datos {
+    color: var(--letra-blanca);
+  }
+
+  .jugador-titulo {
+    color: var(--letra-blanca);
+    padding-top: 40px;
+  }
+
+  .jugador-titulo-g{
+    color: var(--letra-body);
+  }
+  
+}

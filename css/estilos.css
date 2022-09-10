@@ -1,0 +1,45 @@
+:root {
+  --letra-blanca: white;
+  --fondo: rgb(19, 108, 167);
+  --fondo-menu: rgb(24, 49, 66);
+  --letra-body: rgb(5, 62, 100);
+  --alternativo: #edd900;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 70px;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 80px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.horizontal-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.vertical-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 950px) {
+  .horizontal-padding {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .vertical-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
